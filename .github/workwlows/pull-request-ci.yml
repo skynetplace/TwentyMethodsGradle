@@ -23,4 +23,4 @@ jobs:
           cache: maven
 
       - name: Test with Gradle
-        run: gradle clean test
+        run: gradle clean test pitest
