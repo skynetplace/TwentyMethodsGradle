@@ -1,5 +1,10 @@
 plugins {
     id 'java'
+    id 'info.solidsoft.pitest' version '1.15.0'
+}
+
+pitest {
+    junit5PluginVersion = '1.0.0'
 }
 
 group = 'com.honcharenko'
